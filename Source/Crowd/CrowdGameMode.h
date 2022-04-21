@@ -18,7 +18,7 @@ protected:
 	TArray<TSubclassOf<ACharacter>> BotsClasses;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Spawn Crowd AI")
-	int32 BotsAmount = 100;
+	int32 BotsAmount = 160;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Spawn Crowd AI")
 	int32 BotsInRow = 20;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Spawn Crowd AI")

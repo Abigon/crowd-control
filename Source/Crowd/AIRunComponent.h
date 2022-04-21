@@ -36,6 +36,9 @@ public:
 	UAIRunComponent();
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UFUNCTION(BlueprintCallable, Category = "AI")
+	bool IsMoving() const { return bIsMoving; }
+
 protected:
 	virtual void BeginPlay() override;
 
